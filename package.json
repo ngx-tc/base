@@ -5,6 +5,7 @@
   "license": "MIT",
   "description": "Angular UI components library",
   "keywords": ["angular", "angular UI", "angular components", "ng", "ngx"],
+  "repository": "https://github.com/ngx-tc/base",
   "peerDependencies": {
     "@angular/common": "^13.1.0",
     "@angular/core": "^13.1.0"
