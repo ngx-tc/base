@@ -1,0 +1,14 @@
+@use 'sass:math';
+
+:host {
+  --tc-base-fs: 14px;
+  --tc-base-ff: 'Lato', sans-serif;
+  --tc-base-fw: 400;
+  --tc-base-module: 10px;
+  --tc-base-module-rem: math.div(var(--tc-base-module), var(--tc-base-fs)) * 1rem;
+  --tc-base-lh: math.div(var(--tc-base-module) * 2, var(--tc-base-fs));
+  --tc-base-shape: 6px;
+  --tc-base-shadow: 0 18px 24px rgba(#000,.12);
+  --tc-base-shadow-hover: 0px 8px 24px rgba(#000,.12);
+  --tc-base-animation: ease-in-out;
+}
