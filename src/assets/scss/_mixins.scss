@@ -1,0 +1,7 @@
+// 'px' to 'rem'
+@function toRem($size) {
+  $main-fs: var(--tc-base-fs-number);
+  $remSize: calc(#{$size} / #{$main-fs} * 1rem);
+
+  @return $remSize;
+}
