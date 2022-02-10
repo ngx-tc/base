@@ -11,4 +11,17 @@
   --tc-base-shadow: 0 #{toRem(18)} #{toRem(24)} rgba(0,0,0,.12);
   --tc-base-shadow-hover: 0 #{toRem(8)} #{toRem(24)} rgba(0,0,0,.12);
   --tc-base-animation: ease-in-out;
+
+  --tc-color-primary: #1f2022;
+  --tc-color-primary-contrast: #fff;
+  --tc-color-accent: #336cfb;
+  --tc-color-accent-contrast: #fff;
+  --tc-color-success: #b7ce63;
+  --tc-color-success-contrast: #000;
+  --tc-color-info: #64B5F6;
+  --tc-color-info-contrast: #000;
+  --tc-color-warning: #e9e165;
+  --tc-color-warning-contrast: #000;
+  --tc-color-error: #ed5564;
+  --tc-color-error-contrast: #fff;
 }
