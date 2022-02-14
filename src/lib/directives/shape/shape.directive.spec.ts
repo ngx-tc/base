@@ -1,8 +1,8 @@
-import { TCShapeDirective } from './shape.directive';
+import { ShapeDirective } from './shape.directive';
 
-describe('TCShapeDirective', () => {
+describe('ShapeDirective', () => {
   it('should create an instance', () => {
-    const directive = new TCShapeDirective();
+    const directive = new ShapeDirective();
     expect(directive).toBeTruthy();
   });
 });
