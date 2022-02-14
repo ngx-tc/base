@@ -5,26 +5,26 @@ import { ShapeDirective } from './directives/shape/shape.directive';
 import { ColorDirective } from './directives/color/color.directive';
 import { BgColorDirective } from './directives/bg-color/bg-color.directive';
 import { BorderColorDirective } from './directives/border-color/border-color.directive';
+import { BorderStyleDirective } from './directives/border-style/border-style.directive';
 import { GradientDirective } from './directives/gradient/gradient.directive';
+
+const list = [
+  BaseComponent,
+  ShapeDirective,
+  ColorDirective,
+  BgColorDirective,
+  BorderColorDirective,
+  BorderStyleDirective,
+  GradientDirective
+];
 
 @NgModule({
   declarations: [
-    BaseComponent,
-    ShapeDirective,
-    ColorDirective,
-    BgColorDirective,
-    BorderColorDirective,
-    GradientDirective
+    ...list
   ],
-  imports: [
-  ],
+  imports: [],
   exports: [
-    BaseComponent,
-    ShapeDirective,
-    ColorDirective,
-    BgColorDirective,
-    BorderColorDirective,
-    GradientDirective
+    ...list
   ]
 })
 export class TcBaseModule { }
