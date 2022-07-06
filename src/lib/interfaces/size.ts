@@ -1,5 +1,9 @@
+export interface TcSize {
+  tcSize: string | size;
+}
+
 export enum size {
-  sm = 'SM',
-  default = 'DEFAULT',
-  lg = 'LG'
+  sm = 'sm',
+  default = 'default',
+  lg = 'lg'
 }

@@ -1,8 +1,12 @@
+export interface TcView {
+  tcView: string | view;
+}
+
 export enum view {
-  primary = 'PRIMARY',
-  accent = 'ACCENT',
-  success = 'SUCCESS',
-  info = 'INFO',
-  warning = 'WARNING',
-  error = 'ERROR'
+  primary = 'primary',
+  accent = 'accent',
+  success = 'success',
+  info = 'info',
+  warning = 'warning',
+  error = 'error'
 }
