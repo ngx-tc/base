@@ -1,24 +1,30 @@
-# Base
+# About
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.0.
+`@ngx-tc/base` is an Angular library that provides a set of base functionalities, including interfaces, directives, general CSS styles, and variables, which can be used in combination with other `ngx-tc` libraries to create a unified UI experience.
 
-## Code scaffolding
+The main focus of `@ngx-tc/base` is on providing a consistent set of styles and variables that can be used across different `ngx-tc` libraries. This includes things like color palettes, typography, spacing, and layout, as well as other commonly used design elements.
 
-Run `ng generate component component-name --project base` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project base`.
-> Note: Don't forget to add `--project base` or else it will be added to the default project in your `angular.json` file. 
+By using `@ngx-tc/base` in conjunction with other libraries, you can ensure that all of your components use a consistent set of styles and variables, which can help to create a more cohesive and visually appealing UI.
 
-## Build
+In addition to providing a set of base styles and variables, `@ngx-tc/base` also includes a set of pre-built components and utilities that can be used to enhance the functionality of your application. For example, it includes a set of UI components that provide built-in accessibility features and support for different screen sizes and devices.
 
-Run `ng build base` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Usage
 
-## Publishing
+Install `@ngx-tc/base` in your project:
 
-After building your library with `ng build base`, go to the dist folder `cd dist/base` and run `npm publish`.
+```
+npm install @ngx-tc/base
+```
 
-## Running unit tests
+Import `TcBaseModule` e.g. in your `app.module.ts`:
+```typescript
+import { TcBaseModule } from '@ngx-tc/base';
 
-Run `ng test base` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+@NgModule({
+  imports: [
+    ...
+      TcBaseModule
+  ],
+})
+export class AppModule {}
+```

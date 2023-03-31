@@ -1,11 +1,12 @@
 {
   "name": "@ngx-tc/base",
-  "version": "0.0.17",
+  "version": "1.0.0",
   "author": "type0code",
   "license": "MIT",
   "description": "Angular UI components library",
-  "keywords": ["angular", "angular UI", "angular components", "ng", "ngx"],
+  "keywords": ["angular", "angular UI", "angular components", "ng", "ngx-tc", "ngx-tc/base"],
   "repository": "https://github.com/ngx-tc/base",
+  "homepage": "http://tc-library.type-code.pro",
   "config": {
     "access": "public"
   },

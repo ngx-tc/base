@@ -1,7 +1,7 @@
 export enum align {
-  left = 'left',
+  start = 'start',
   center = 'center',
-  right = 'right'
+  end = 'end'
 }
 
 export enum state {
