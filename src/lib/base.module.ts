@@ -7,6 +7,7 @@ import { BgColorDirective } from './directives/bg-color/bg-color.directive';
 import { BorderColorDirective } from './directives/border-color/border-color.directive';
 import { BorderStyleDirective } from './directives/border-style/border-style.directive';
 import { GradientDirective } from './directives/gradient/gradient.directive';
+import { AlignDirective } from './directives/align/align.directive';
 
 const list = [
   BaseComponent,
@@ -15,7 +16,8 @@ const list = [
   BgColorDirective,
   BorderColorDirective,
   BorderStyleDirective,
-  GradientDirective
+  GradientDirective,
+  AlignDirective
 ];
 
 @NgModule({

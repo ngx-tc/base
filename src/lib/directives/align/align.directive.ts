@@ -6,7 +6,7 @@ import { align } from '../../interfaces/general';
 })
 export class AlignDirective {
   @Input() tcAlign: align;
-  @HostBinding('class.left-align') get leftAlign() { return this.tcAlign === align.left };
+  @HostBinding('class.start-align') get leftAlign() { return this.tcAlign === align.start };
   @HostBinding('class.center-align') get centerAlign() { return this.tcAlign === align.center };
-  @HostBinding('class.right-align') get rightAlign() { return this.tcAlign === align.right };
+  @HostBinding('class.end-align') get rightAlign() { return this.tcAlign === align.end };
 }
