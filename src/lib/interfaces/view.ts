@@ -1,5 +1,7 @@
+import { View } from '../types/view';
+
 export interface TcView {
-  tcView: string | view;
+  tcView: View;
 }
 
 export enum view {
