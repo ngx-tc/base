@@ -1,5 +1,7 @@
+import { Size } from '../types/size';
+
 export interface TcSize {
-  tcSize: string | size;
+  tcSize: Size;
 }
 
 export enum size {
