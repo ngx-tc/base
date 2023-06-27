@@ -1,6 +1,6 @@
 {
   "name": "@ngx-tc/base",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "author": "type0code",
   "license": "MIT",
   "description": "Angular UI components library",
@@ -11,10 +11,10 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@angular/common": "^15.1.5",
-    "@angular/core": "^15.1.5"
+    "@angular/common": "^16.1.2",
+    "@angular/core": "^16.1.2"
   },
   "dependencies": {
-    "tslib": "^2.5.0"
+    "tslib": "^2.6.0"
   }
 }
